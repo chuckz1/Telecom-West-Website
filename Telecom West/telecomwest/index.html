@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TelecomWest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script language="javascript" type="text/javascript">
+<!--
+/****************************************************
+     Author: Eric King
+     Url: http://redrival.com/eak/index.shtml
+     This script is free to use as long as this info is left in
+     Featured on Dynamic Drive script library (http://www.dynamicdrive.com)
+****************************************************/
+var win=null;
+function NewWindow(mypage,myname,w,h,scroll,pos){
+if(pos=="random"){LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+if(pos=="center"){LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
+else if((pos!="center" && pos!="random") || pos==null){LeftPosition=0;TopPosition=20}
+settings='width='+w+',height='+h+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=yes';
+win=window.open(mypage,myname,settings);}
+// -->
+</script>  <link rel="stylesheet" href="fonts/texgyreadventor_regular/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="multi-click/multi-click.css" type="text/css" charset="utf-8" />
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="multi-click/multi-click-ie78.css" type="text/css" charset="utf-8" />
+<![endif]-->
+
+  
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">TelecomWest</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link font-weight-bold">Home&nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a href="#explore-head-section" class="nav-link font-weight-bold">Explore&nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a href="#create-head-section" class="nav-link font-weight-bold">Tech Links and Coverage Area&nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a href="#share-head-section" class="nav-link font-weight-bold">Today's Weather&nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://webmail.telecomwest.net/webmail" class="nav-link font-weight-bold">Webmail&nbsp;&nbsp;</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner container">
+        <div class="row">
+          <div>
+            <h1 class="display-4"><strong>TelecomWest...</strong> Your gateway to the INTERNET</h1>
+            <blockquote class="blockquote">
+              <p>Starting At Just $39.99 per month</p>
+            </blockquote>
+
+            
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Get the Internet speed you need plus stream the movies and apps you love
+              </div>
+            </div>
+            
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Share pictures and videos with your friends and family 
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Visit art museums around the world
+              </div>
+            </div>
+
+          </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Click Here If You Wants Us To Contact You</button><br><br>
+        </div>
+      </div>
+    </div>
+ 
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Please complete this form or call 308-762-4072</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="First and Last Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control form-control-lg" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Phone #">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Best Time To Call">
+                  </div>
+                  <br>We will get in touch you very soon!
+                  <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+                </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!--
+          <div class="col-lg-4">
+            <div class="card bg-primary text-center card-form">
+              <div class="card-body">
+                <h3>Learn More Today</h3>
+                <p>Please fill out to learn more<br> or call 308-762-4072</p>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="First and Last Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control form-control-lg" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Phone #">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Best Time To Call">
+                  </div>
+                  <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+                </form>
+              </div>
+            </div>
+          </div>
+-->         
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- EXPLORE HEAD --><br><br>
+  <section id="explore-head-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Explore The Power of TelecomWest...</h1>
+          <p class="lead">Superior service designed and built to provide true high speed internet access, with the dependability that you expect. Complete with built in efficiency and safety measures to insure our customers enjoy a safe and secure internet experience!</p>
+          
+<a href="find_out_more.html" class="btn btn-outline-secondary" onclick="NewWindow(this.href,'mywin','450','300','yes','center');return false" onfocus="this.blur()">Find Out More</a>
+          
+<!--
+<a href="#" class="btn btn-outline-secondary">Find Out More</a>
+-->
+
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORE SECTION -->
+  <section id="explore-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/surfing_the_web.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Explore & Connect</h3>
+          <p>We have listed below a couple of links that have the largest impact on our community!</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+                <a href="https://www.panhandlepost.com">Panhandle Post</a> - Via KCOW and Double Q Country Radio.<br><strong> Note:</strong> This website requires the most updated web browsers from Microsoft or Google to view!
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <a href="http://shop.ebay.com/telecomwest/m.html">The TelecomWest ebay Store</a> Vist our ebay storefornt - we can help you move your unwanted stuff!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE HEAD -->
+  <section id="create-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Tech Related Links</h1>
+          <p class="lead">We have provided a list of the most popular websites our users visit on the internet.<br> <strong>Note:</strong> Most of these websites require updated browsers to view correctly! </p>
+           <!-- RESPONSIVE TABLE - Scrollbars -->
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="thead-dark">
+
+                    <tr>
+                        <th>Tech Support</th>
+                        <th>Search Engines</th>
+                        <th>People & Business Search</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.download.com" class="fa-inverse">Download.com</a></td>
+                        <td><a href="https://www.yahoo.com" class="fa-inverse">Yahoo.com</a></td>
+                        <td><a href="https://www.yellowpages.com" class="fa-inverse">Yellow Pages</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.annoyances.org" class="fa-inverse">Cure Windows Annoyances</a></td>
+                        <td><a href="https://www.excite.com" class="fa-inverse">Excite.com</a></td>
+                        <td><a href="https://www.switchboard.com" class="fa-inverse">White Pages</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.microsoft.com/en-us/tips/home" class="fa-inverse">Windows Tips &amp; Tricks</a></td>
+                        <td><a href="https://www.msn.com" class="fa-inverse">MSN.com</a></td>
+                        <td></td>
+                    </tr>
+                      <tr>
+                        <td><a href="https://www.tek-tips.com" class="fa-inverse">Tech Tips</a></td>
+                        <td><a href="https://www.google.com" class="fa-inverse">google.com</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.apple.com" class="fa-inverse">Apple</td>
+                        <td><a href="https://www.go.com" class="fa-inverse">Go.com</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+ <a href="links.html" class="btn btn-outline-light" onclick="NewWindow(this.href,'mywin','1480','640','yes','center');return false" onfocus="this.blur()">View Links For More Local & National Websites</a>
+
+
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE SECTION -->
+  <section id="create-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <a href="map.html" onclick="NewWindow(this.href,'mywin','650','865','yes','center');return false" onfocus="this.blur()">
+          <img src="img/nebraska_panhandle.png" alt="" class="img-fluid mb-3 rounded-circle"></a>
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Our Coverage Area</h3>
+          <p>How do we give you the best possible Internet and still save you money?</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Our customer service, and tech support is second to none. Click on the map to see our service coverage!
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              We also take the utmost pride in how we manage our infastructure so that we can deliver the best and most powerful Internet access to our customers 24/7/52!
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE HEAD -->
+  <section id="share-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Your weather today from TelecomWest...</h1>
+          <p class="lead">
+          Superior service designed and built to provide true high speed internet access, with the dependability that you expect. Complete with built in efficiency and safety measures to insure our customers enjoy a safe and secure internet experience!         
+          <div class="table-responsive">
+            <table class="table">
+                <thead class="thead-dark">
+
+                    <tr>
+                        <th>Location</th>
+                        <th>Location</th>
+                        <th>Location</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Alliance&state=NE&site=CYS&textField1=42.1004&textField2=-102.874" class="fa-inverse">Alliance &amp; Hemingford, Nebraska</a></td>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Crawford&state=NE&site=CYS&textField1=42.6855&textField2=-103.414" class="fa-inverse">Crawford, Nebraska</a></td>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Oshkosh&state=NE&site=LBF&textField1=41.4086&textField2=-102.344&e=0" class="fa-inverse">Oshkosh, Nebraska</a></td>
+                     </tr>
+                    <tr>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Bridgeport&state=NE&site=CYS&textField1=41.6667&textField2=-103.098&e=0" class="fa-inverse">Bridgeport, Nebraska</a></td>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Dix&state=NE&site=CYS&textField1=41.2347&textField2=-103.486&e=1" class="fa-inverse">Dix, Nebraska</a></td>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Scottsbluff&state=NE&site=CYS&textField1=41.8672&textField2=-103.662" class="fa-inverse">Scottsbluff &amp; Gering, Nebraska</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Chadron&state=NE&site=CYS&textField1=42.8271&textField2=-103" class="fa-inverse">Chadron, Nebraska</a></td>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Lisco&state=NE&site=LBF&textField1=41.5&textField2=-102.62&e=0" class="fa-inverse">Lisco Nebraska</a></td>
+                        <td><a href="http://forecast.weather.gov/MapClick.php?CityName=Whitman&state=NE&site=LBF&textField1=42.044&textField2=-101.537&e=0" class="fa-inverse">Whitman, Nebraska</a></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+          
+<!--          
+<a href="#" class="btn btn-outline-light">Find Out More</a>
+-->
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE SECTION -->
+  <section id="share-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://forecast.weather.gov/wwamap/png/US.png" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Your United States Weather Map For Today</h3>
+          <p>This Is Today's Weather Map - Click On The Link Below For The U.S. Weather Service Interactive Map!</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <a href="https://www.weather.gov/">U.S. Weather Today!</a>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>Contact TelecomWest at 308-762-4072  |  814 East 3rd Street - Alliance, NE 69301</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Message Tech Support</button><br><br>
+          <h5>Powered By NMS, Inc.</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Message Tech Support</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
